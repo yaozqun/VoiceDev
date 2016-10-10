@@ -2,8 +2,8 @@ package com.grgbanking.baselib.util;
 
 import android.content.Context;
 
-import com.grgbanking.baselib.ui.dialog.CustomDialog;
-import com.grgbanking.baselib.ui.dialog.Effectstype;
+import com.grgbanking.baselib.ui.view.dialog.CustomDialog;
+import com.grgbanking.baselib.ui.view.dialog.Effectstype;
 import com.grgbanking.baselib.R;
 
 /**

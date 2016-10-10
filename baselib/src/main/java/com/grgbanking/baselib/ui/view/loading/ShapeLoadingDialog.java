@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.grgbanking.baselib.R;
-import com.grgbanking.baselib.ui.numberprogressbar.NumberProgressBar;
+import com.grgbanking.baselib.ui.view.numberprogressbar.NumberProgressBar;
 
 
 public class ShapeLoadingDialog {
