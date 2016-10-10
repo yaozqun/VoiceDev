@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#770000aa"
+            android:clickable="true"
+            android:ems="7"
+            android:gravity="center"
+            android:onClick="testSinglescan"
+            android:text="单次扫描"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="40dp"
+            android:background="#aa000000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#770000aa"
+            android:clickable="true"
+            android:gravity="center"
+            android:minWidth="160dp"
+            android:onClick="testMulscan"
+            android:text="连续扫描" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#770000aa"
+            android:clickable="true"
+            android:ems="7"
+            android:gravity="center"
+            android:onClick="fliteData"
+            android:text="过滤重复数据"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="40dp"
+            android:background="#aa000000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#770000aa"
+            android:clickable="true"
+            android:gravity="center"
+            android:minWidth="160dp"
+            android:onClick="clearData"
+            android:text="清空数据" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="请输入您要写入的数据" />
+
+    <Button
+        android:id="@+id/bt_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <ListView
+            android:id="@+id/test_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="#ffffffff"></ListView>
+
+        <ProgressBar
+            android:id="@+id/test_ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/AndroidStudioProjects/VoiceDeveopment/VoiceDev/pdamodellib/src/main/res/layout/activity_test_uhf.xml -->

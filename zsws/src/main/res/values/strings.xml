@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">zsws</string>
+    <string name="system_name">早收晚收系统</string>
+    <string name="module_line">线路节点</string>
+    <string name="module_task">网点任务</string>
+    <string name="module_box">款箱信息</string>
+
+    <string name="please_input_userName">请输入用户名</string>
+    <string name="userName">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="login">登  录</string>
+    <string name="userName_not_allowed_null">对不起，用户名不能为空</string>
+    <string name="pwd_not_allowed_null">对不起，密码不能为空</string>
+</resources>
